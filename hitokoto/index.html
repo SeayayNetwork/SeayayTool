@@ -13,7 +13,7 @@
         .then(response => response.json())
         .then(data => {
             const hitokoto = document.getElementById('hitokoto')
-            hitokoto.innerText = data.hitokoto
+            hitokoto.innerText = "『" + data.hitokoto + "』"
             const from_who = document.getElementById('from_who')
             from_who.innerText = data.from_who
         })
