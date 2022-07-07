@@ -1,18 +1,18 @@
 p.text {
-    margin-top: 50%;
-    margin-bottom: 50%;
-    color: white;
-    text-align: center;
-    font-size: 70px;
-    text-shadow: 2px 2px 5px black;
+    margin:auto;
+    color:white;
+    text-align:center;
+    font-size:70px;
+    text-shadow:2px 2px 5px black;
+    line-height: 200px;
 }
 p.from {
-    margin-top: 50%;
-    margin-bottom: 50%;
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 2px 2px 5px black;
+    margin:auto;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    text-shadow:2px 2px 5px black;
+    line-height: 150px;
 }
 body {
     background-image: url("https://api.btstu.cn/sjbz/api.php?method=pc&lx=dongman");
