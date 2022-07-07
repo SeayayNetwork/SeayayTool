@@ -1,0 +1,10 @@
+h1.hitokoto_text {
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+h2.hitokoto_author {
+    color: black;
+    text-align: center;
+    font-size: medium;
+}

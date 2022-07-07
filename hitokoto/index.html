@@ -1,12 +1,14 @@
 <head>
     <title>一言 - SeayayTool</title>
+    <link rel="icon" href="seayaynetwork.github.io/seayaytool/favicon.ico" type ="image/x-icon">
 </head>
 <body>
-<noscript>咋不开 JavaScript 呢，少年</noscript>
-    <div id="hitokoto" class="hitokoto-fullpage bounce animated">
-        <div class="word" id="hitokoto_text"></div>
-        <div class="author" id="hitokoto_author"></div>
-    </div>
+    body {
+        background-image: url("api.daihan.top/api/acg/index.php");
+      }
+    <noscript>咋不开 JavaScript 呢，少年</noscript>
+    <h1 class="word" id="hitokoto_text"></h1>
+    <h2 class="author" id="hitokoto_author"></h2>
     <script type="text/javascript">
         fetch('https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d')
             .then(response => response.json())
