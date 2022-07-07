@@ -5,17 +5,17 @@
 </head>
 <body>
     </style>
-    <noscript>咋不开 JavaScript 呢，少年</noscript>
+    <noscript><strong>咋不开 JavaScript 呢，少年</strong></noscript>
     <p class="text" id="hitokoto"></p>
-    <p class="from" id="from_who"></p>
+    <p class="from" id="from"></p>
     <script type="text/javascript">
         fetch('https://v1.hitokoto.cn/?c=a')
         .then(response => response.json())
         .then(data => {
             const hitokoto = document.getElementById('hitokoto')
             hitokoto.innerText = "『" + data.hitokoto + "』"
-            const from_who = document.getElementById('from_who')
-            from_who.innerText = data.from_who
+            const from = document.getElementById('from')
+            from.innerText = data.from
         })
         .catch(console.error)
     </script>
