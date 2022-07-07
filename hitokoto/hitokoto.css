@@ -1,14 +1,14 @@
 p.text {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
     color: white;
     text-align: center;
     font-size: 70px;
     text-shadow: 2px 2px 5px black;
 }
 p.from {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
     color: white;
     text-align: center;
     font-size: 40px;

@@ -9,12 +9,12 @@
     <p class="text" id="text"></p>
     <p class="from" id="from"></p>
     <script type="text/javascript">
-        fetch('https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d')
+        fetch('https://v1.hitokoto.cn/?c=a')
             .then(response => response.json())
             .then(data => {
-                    const text = document.getElementById('text')
+                    const hitokoto = document.getElementById('text')
                     text.innerText = "『" + data.text + "』"
-                    const from = document.getElementById('from')
+                    const from_who = document.getElementById('from')
                     from.innerText = data.from
                     })
                     .catch(console.error)
