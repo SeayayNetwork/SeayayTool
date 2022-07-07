@@ -1,13 +1,15 @@
 p.text {
+    margin: auto;
     color: black;
     text-align: center;
     font-size: large;
 }
 p.from {
+    margin: auto;
     color: black;
     text-align: center;
     font-size: medium;
 }
 body {
-    background-image: url("https://www.dmoe.cc/random.php");
+    background-image: url("https://api.btstu.cn/sjbz/api.php?method=pc&lx=dongman");
 }
