@@ -8,3 +8,6 @@ p.from {
     text-align: center;
     font-size: medium;
 }
+body {
+    background-image: url("https://www.dmoe.cc/random.php");
+}
