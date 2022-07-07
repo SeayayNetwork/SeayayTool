@@ -1,14 +1,18 @@
 p.text {
-    margin: auto;
-    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
     text-align: center;
-    font-size: large;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px black;
 }
 p.from {
-    margin: auto;
-    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
     text-align: center;
-    font-size: medium;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
 }
 body {
     background-image: url("https://api.btstu.cn/sjbz/api.php?method=pc&lx=dongman");
