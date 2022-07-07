@@ -1,9 +1,9 @@
-h1.hitokoto_text {
+p.text {
     color: black;
     text-align: center;
     font-size: large;
 }
-h2.hitokoto_author {
+p.from {
     color: black;
     text-align: center;
     font-size: medium;

@@ -3,20 +3,22 @@
     <link rel="icon" href="seayaynetwork.github.io/seayaytool/favicon.ico" type ="image/x-icon">
 </head>
 <body>
-    body {
-        background-image: url("api.daihan.top/api/acg/index.php");
-      }
+    <style type="text/css">
+        body {
+            background-image: url("api.daihan.top/api/acg/index.php");
+          }
+    </style>
     <noscript>咋不开 JavaScript 呢，少年</noscript>
-    <h1 class="word" id="hitokoto_text"></h1>
-    <h2 class="author" id="hitokoto_author"></h2>
+    <p class="text" id="text"></p>
+    <p class="from" id="from"></p>
     <script type="text/javascript">
         fetch('https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d')
             .then(response => response.json())
             .then(data => {
-                    const hitokoto_text = document.getElementById('text')
-                    hitokoto_text.innerText = "『" + data.text + "』"
-                    const hitokoto_author = document.getElementById('from')
-                    hitokoto_author.innerText = data.from
+                    const text = document.getElementById('text')
+                    text.innerText = "『" + data.text + "』"
+                    const from = document.getElementById('from')
+                    from.innerText = data.from
                     })
                     .catch(console.error)
     </script>
