@@ -4,6 +4,7 @@ p.text {
     text-align:center;
     font-size:70px;
     text-shadow:2px 2px 8px black;
+    line-height:300px;
 }
 p.from {
     margin:auto;
@@ -11,7 +12,8 @@ p.from {
     text-align:center;
     font-size:40px;
     text-shadow:2px 2px 5px black;
+    line-height:200px;
 }
 body {
-    background-image: url("https://api.btstu.cn/sjbz/api.php?method=pc&lx=dongman");
+    background-image: url("https://bing.ioliu.cn/v1/rand");
 }
